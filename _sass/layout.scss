@@ -367,10 +367,10 @@ nav > ul li a:active {
 	
 } 
 
-@media only screen and (max-width: 528px) {
+@media only screen and (max-width: 350px) {
 
 	.playStore {
-		margin-right: 0px;
+		margin-right: 24px;
 		margin-bottom: 24px;
 	}
 	
@@ -461,7 +461,7 @@ nav > ul li a:active {
 @media only screen and (max-width: 992px) {
 
 	.iphonePreview {
-		display: flex;
+		display: none;
 		background-size: 260px auto;
 		background-position: center 0;
 		margin-top: 47px;
@@ -712,7 +712,11 @@ footer {
 	.footerIcons {
 		padding-bottom: 70px;
 		display: flex;
-	}
+  }
+  
+  .downloadButtonsContainer {
+    margin-bottom: 100px;
+  }
 	
 } 
 
